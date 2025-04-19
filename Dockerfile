@@ -15,6 +15,7 @@ RUN apt-get update && \
     apt-get install -y htop && \
     apt-get install -y speedtest-cli && \
     apt-get install -y tmate && \
+    apt-get install -y fish && \
     apt-get install -y screen && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
